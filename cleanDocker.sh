@@ -19,5 +19,6 @@ docker image prune -a -f
 
 # Prune Docker system(included stopped containers, networks,dangling images and optionally unused volumes
 docker system prune -a -f
-
 echo "After deletion"
+docker ps -a
+docker images
